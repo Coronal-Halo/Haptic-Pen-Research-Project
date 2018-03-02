@@ -1,6 +1,7 @@
-# Project Title
+# Haptic Pen Motion Tracking and Plotting
 
-One Paragraph of project description goes here
+This program is used to track the motion of a haptic pen on a whiteboard and plot the pen's relative X and Y coordinates over time.
+The project will be constantly updated.
 
 ## Getting Started
 
@@ -16,8 +17,8 @@ What things you need to install the software and how to install them
 
 ### Installing Libraries
 
-After both installations are done, copy the cv2.pyd file in the OpenCV installation folder to Anaconda side-package folder
-Example: I am using Python 2.7 and OpenCV 3.2. so I copy cv2.pyd under the directory 
+After both installations are done, copy the cv2.pyd file in the OpenCV installation folder to Anaconda side-package folder.
+Example: I am using Python 2.7 and OpenCV 3.2. so I copy cv2.pyd under the directory
 ```
 OpenCV3.2\opencv\build\python\2.7\x64
 ```
@@ -27,7 +28,7 @@ Anaconda3\Lib\site-packages
 ``` 
 You can also put multiple versions of OpenCV under site-package folder and switch among them simply by changing the desired .pyd file's name to "cv2.pyd". 
 
-If you want to run this program under different environments, simply create virtual environement using conda. Please follow [this website](https://conda.io/docs/user-guide/tasks/manage-python.html) for details
+If you want to run this program under different environments, simply create virtual environement using conda. Please follow [this website](https://conda.io/docs/user-guide/tasks/manage-python.html) for details.
 
 Install Matplotlib using command
 ```
@@ -40,7 +41,7 @@ python track_plot.py
 ```
 ### Possible Trouble Shooting
 
-Will add more information later
+Will add more information later.
 
 ## Authors
 
