@@ -5,11 +5,9 @@ The project will be constantly updated.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
-What things you need to install the software and how to install them
+What things you need to run the program
 
 * This installation tutorial is for Windows. For Mac OS X please refer to [this website](http://frankfineis.github.io/blog/2016/03/13/install_opencv.html)
 * Install Anaconda from https://www.anaconda.com/
