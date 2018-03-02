@@ -17,9 +17,17 @@ What things you need to install the software and how to install them
 ### Installing Libraries
 
 After both installations are done, copy the cv2.pyd file in the OpenCV installation folder to Anaconda side-package folder
-Example: I am using Python 2.7 and OpenCV 3.2. so I copy cv2.pyd under the directory OpenCV3.2\opencv\build\python\2.7\x64 to directory Anaconda3\Lib\site-packages. You can also put multiple versions of OpenCV under site-package folder and switch among them simply by changing the desired .pyd file's name to "cv2.pyd". 
+Example: I am using Python 2.7 and OpenCV 3.2. so I copy cv2.pyd under the directory 
+```
+OpenCV3.2\opencv\build\python\2.7\x64
+```
+to directory 
+```
+Anaconda3\Lib\site-packages
+``` 
+You can also put multiple versions of OpenCV under site-package folder and switch among them simply by changing the desired .pyd file's name to "cv2.pyd". 
 
-If you want to run this program under different environments, you can create virtual environement using conda. Please follow [this website](https://conda.io/docs/user-guide/tasks/manage-python.html) for details
+If you want to run this program under different environments, simply create virtual environement using conda. Please follow [this website](https://conda.io/docs/user-guide/tasks/manage-python.html) for details
 
 Install Matplotlib using command
 ```
@@ -30,6 +38,9 @@ After all installations are done, try to run the program using command
 ```
 python track_plot.py
 ```
+### Possible Trouble Shooting
+
+Will add more information later
 
 ## Authors
 
@@ -37,4 +48,4 @@ python track_plot.py
 
 ## Acknowledgments
 
-* Rajeev Ratan
+* Udemy Computer Vision course taught by Rajeev Ratan
