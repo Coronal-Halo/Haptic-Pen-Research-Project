@@ -48,3 +48,4 @@ Will add more information later.
 ## Acknowledgments
 
 * Udemy Computer Vision course taught by Rajeev Ratan
+* Adrian Rosebrock from PyImageSearch
