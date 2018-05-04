@@ -6,11 +6,11 @@ import numpy as np
 import time
 
 # Initalize camera
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 # define range of purple color in HSV
-lower_purple = np.array([130,50,90])
-upper_purple = np.array([170,255,255])
+lower_purple = np.array([165,50,120])
+upper_purple = np.array([240,255,255])
 
 # Create empty deque array to store object locations for trajectory drawing
 # Note, the upper right corner is the Origin 
@@ -118,7 +118,7 @@ while True:
 	
 	# Use a "buffer" to lower the sensitivity of the plot when detecting (0, 0)
 	# in case the object detector is not able to detect accurately sometimes
-	if radius > 25:
+	if radius > 5:
 		frame_count = 0
 	else:
 		frame_count += 1
@@ -136,7 +136,7 @@ while True:
 		
 		# Allow only countors that have a larger than 25 pixel radius
 		# if radius > 25:
-		if radius > 25:
+		if radius > 5:
 			try:
 				center_draw = center_plot = (int(M["m10"] / M["m00"]), int(M["m01"] / M["m00"]))
 
